@@ -1,0 +1,58 @@
+$app-background-color: rgb(170, 26, 26);
+body {
+  margin: 0;
+  background-color: $app-background-color;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.two{
+  
+  width:500px;
+  height: 100px;
+ margin:0 auto;
+ padding: 30px;
+ color:yellow;
+ font-size: 50px;
+ border: 3px solid yellow;
+ border-radius: 30px;
+}
+form{
+  margin:20px auto;
+  width: 200px;
+  border: 1px solid #fff;
+  padding: 20px;
+  color:#fff;
+}
+form input{
+  padding: 10px;
+  margin: 10px;
+  color:black;
+}
+form button{
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  color:black;
+  border:none;
+}
+.message{
+  margin:30px auto ;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+ width:400px;
+padding: 10px;
+color:yellow;
+font-size: 30px;
+border: 3px solid yellow;
+border-radius: 30px;
+ 
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
